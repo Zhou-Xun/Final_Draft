@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/light.png");
+    background-image: url("../images/heart.png");
     /* Set a specific height */
     min-height: 500px;
 
@@ -10,7 +10,7 @@ body {
     background-size: cover;
 
     font-weight:600;
-    color: white;
+    color: black;
     font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -21,8 +21,8 @@ body {
 }
 
 @keyframes mymove {
-    from{width: 25px; opacity: 0; color: darkgrey}
-    to{width: 475px; opacity: 1; color: aliceblue}
+    from{width: 25px; opacity: 0; color: black}
+    to{width: 475px; opacity: 1; color: black}
 }
 
 h4 {
@@ -44,7 +44,7 @@ nav {
 }
 
 .active-page {
-    color: #ffffff;
+    color: black;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -93,7 +93,7 @@ a {
 }
 
 a:visited, a:active, a:link{
-    color: #fff;
+    color: black;
 }
 
 .hovernav::before{
@@ -180,13 +180,14 @@ main {
 
 /*}*/
 
+
 .first-section .review p {
     position: relative;
     left: 1em;
     line-height: 1.5em;
 }
 .first-section .review a, .text a {
-    color: #a9a9a9;
+    color: black;
     text-decoration: underline;
 }
 
@@ -207,7 +208,7 @@ ul {
 
 
 .first-section .review span {
-    color: #a9a9a9;
+    color: black;
 }
 
 
@@ -309,17 +310,14 @@ h4 {
 
 /*flip card*/
 .glow-flip {
-    color: #ffffff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    color: maroon;
+    /*-webkit-animation: glow 1s ease-in-out infinite alternate;*/
+    /*-moz-animation: glow 1s ease-in-out infinite alternate;*/
+    /*animation: glow 1s ease-in-out infinite alternate;*/
 }
 
 .flip-card {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
     background-color: transparent;
     width: 250px;
@@ -361,7 +359,7 @@ h4 {
 /* Style the back side */
 .flip-card-back {
     background-color: lightblue;
-    color: firebrick;
+    color: maroon;
     transform: rotateY(180deg);
 }
 
