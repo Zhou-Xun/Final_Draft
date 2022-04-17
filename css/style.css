@@ -10,7 +10,7 @@ body {
     background-size: cover;
 
     font-weight:600;
-    color: aliceblue;
+    color: white;
     font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 a:visited, a:active, a:link{
-    color: aliceblue;
+    color: salmon;
 }
 
 .hovernav::before{
@@ -362,7 +362,7 @@ h4 {
 /* Style the back side */
 .flip-card-back {
     background-color: lightblue;
-    color: purple;
+    color: firebrick;
     transform: rotateY(180deg);
 }
 
