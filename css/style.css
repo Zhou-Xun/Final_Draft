@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/heart.png");
+    background-image: url("../images/simple.png");
     /* Set a specific height */
     min-height: 500px;
 
@@ -10,10 +10,13 @@ body {
     background-size: cover;
 
     font-weight:600;
-    color: black;
+    color: brown;
     font-family: 'Didact Gothic', sans-serif;
 }
 
+header > h1 {
+    color: maroon;
+}
 
 .skip{
     animation: mymove 5s;
@@ -21,8 +24,8 @@ body {
 }
 
 @keyframes mymove {
-    from{width: 25px; opacity: 0; color: black}
-    to{width: 475px; opacity: 1; color: black}
+    from{width: 25px; opacity: 0; color: darkred}
+    to{width: 475px; opacity: 1; color: darkred}
 }
 
 h4 {
@@ -44,7 +47,7 @@ nav {
 }
 
 .active-page {
-    color: black;
+    /*color: black;*/
     text-align: center;
     /*-webkit-animation: glow 1s ease-in-out infinite alternate;*/
     /*-moz-animation: glow 1s ease-in-out infinite alternate;*/
@@ -53,12 +56,12 @@ nav {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
-        0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #8b4513, 0 0 30px #8b4513, 0 0 40px #8b4513,
+        0 0 50px #800000, 0 0 60px #800000, 0 0 70px #800000;
     }
     to {
-        text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
-        0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #ff6347, 0 0 30px #ff6347, 0 0 40px #ff6347, 0 0 50px #ff6347,
+        0 0 60px #bc8f8f, 0 0 70px #bc8f8f, 0 0 80px #bc8f8f;
     }
 }
 
@@ -93,7 +96,7 @@ a {
 }
 
 a:visited, a:active, a:link{
-    color: black;
+    color: maroon;
 }
 
 .hovernav::before{
@@ -172,13 +175,9 @@ main {
     margin-left: 50px;
 }
 
-/*.review {*/
-/*    background-color: #dadada;*/
-/*    padding: 10px;*/
-/*    color: black;*/
-/*    opacity: 0.8;*/
-
-/*}*/
+.review {
+    color: saddlebrown;
+}
 
 
 .first-section .review p {
@@ -187,7 +186,7 @@ main {
     line-height: 1.5em;
 }
 .first-section .review a, .text a {
-    color: black;
+    color: dimgray;
     text-decoration: underline;
 }
 
@@ -208,7 +207,7 @@ ul {
 
 
 .first-section .review span {
-    color: black;
+    color: brown;
 }
 
 
@@ -285,8 +284,8 @@ h4 {
 
 .second-section .box:nth-of-type(even):hover {
     outline: none;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #9ecaed;
+    border-color: grey;
+    box-shadow: 0 0 10px grey;
 }
 
 /*star rating checked*/
@@ -360,7 +359,7 @@ h4 {
 
 /* Style the back side */
 .flip-card-back {
-    background-color: lightblue;
+    background-color: lightgrey;
     color: maroon;
     transform: rotateY(180deg);
 }
@@ -389,6 +388,14 @@ h4 {
 
     .active-page {
         animation: none;
+    }
+
+    body {
+        background-attachment: scroll;
+    }
+
+    .flip-card-inner {
+        transition: none;
     }
 }
 
