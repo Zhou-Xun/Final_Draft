@@ -441,7 +441,6 @@ h4 {
     }
 
     .main-section {
-        /*margin: auto;*/
         width: 90%;
     }
 
@@ -454,10 +453,7 @@ h4 {
     }
 
     .grid {
-        display: grid;
         grid-template-columns: repeat(4, 180px);
-        /*align-items: center;*/
-        /*justify-items: center;*/
         justify-content: center;
     }
 
@@ -496,14 +492,9 @@ h4 {
         position: relative;
         top: -120px;
         margin-left: 200px;
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*justify-content: flex-end;*/
     }
 
     ul {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-end;
     }
 
@@ -513,17 +504,9 @@ h4 {
     }
 
     .grid {
-        display: grid;
         grid-template-columns: repeat(6, 1fr);
-        /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
-        align-items: center;
-        justify-items: center;
         justify-content: flex-start;
     }
-
-    /*.box-a, .box-b, .box-c, .box-d, .box-e, .box-f, .box-g, .box-h, .box-i{*/
-    /*    align-self: center;*/
-    /*}*/
 
     .box-b, .text-b, .box-c, .text-c, .box-d, .text-d, .box-e, .text-e, .box-f, .text-f, .box-g, .text-g,
     .box-h, .text-h, .box-i, .text-i {
