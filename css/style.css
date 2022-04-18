@@ -414,6 +414,7 @@ h4 {
 
     .active-page {
         animation: none;
+        border: 1px dashed maroon;
     }
 
     body {
